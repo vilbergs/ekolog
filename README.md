@@ -21,6 +21,10 @@ I made this so that I could capture console logs and exceptions from browsers on
 
 The server can be run using a local Deno installation or run via Docker Compose
 
+### Configuring Port and Environment Variables
+
+The server uses port `8080` by default, but this can be changed by adding a `.env` file to the project root (see `.env-example`).
+
 ### Running
 
 **Using a local Deno installation.**
