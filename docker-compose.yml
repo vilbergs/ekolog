@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    container_name: deno-container
+    image: deno-image
+    environment:
+      - PORT=${PORT}
+    ports:
+      - ${PORT}:${PORT}
